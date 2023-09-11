@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="dist/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&family=Outfit:wght@400;700&family=Public+Sans:wght@300;400;700&family=Ubuntu:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+</head>
+<body>
+  <div class="center">
+    <div class="middle">
+      <div class="result">
+        <p class="yourresult">Your Result</p>
+          <div class="numbers">
+            <p id="result" class="big_numero"></p>
+            <p class="total">of 100</p>
+          </div>
+        <p class="great">Great</p>
+        <p class="score">You scored higher than <span id="procent"></span>% of the people who have taken these tests.</p>
+      </div>
+      <div class="summary">
+        <p class="name">Summary</p>
+          <div class="reaction">
+            <img src="assets/images/icon-reaction.svg" alt="reaction image" class="r_img">
+            <p class="r_text">Reaction</p>
+            <p class="r_score">
+              <span id="reaction"></span><span class="outof"> / 100</span>
+            </p>
+          </div>
+          <div class="memory">
+            <img src="assets/images/icon-memory.svg" alt="memory image" class="r_img">
+            <p class="m_text">Memory</p>
+            <p class="r_score"><span id="memory"></span><span class="outof"> / 100</span></p>
+          </div>
+          <div class="verbal">
+            <img src="assets/images/icon-verbal.svg" alt="verbal image" class="r_img">
+            <p class="v_text">Verbal</p>
+            <p class="r_score"> 
+              <span id="verbal"></span><span class="outof"> / 100</span> 
+            </p>
+          </div>
+          <div class="visual">
+            <img src="assets/images/icon-visual.svg" alt="visual image" class="r_img">
+            <p class="v1_text">Visual</p>
+            <p class="r_score"> 
+              <span id="visual"></span><span class="outof"> / 100</span>
+            </p>
+          </div>
+          <button class="continue">Continue</button>
+      </div>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io/challenges/results-summary-component-CE_K6s0maV/hub" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/Kytario">Kytario</a>.
+  </div>
+  <script src="app/js/script.js"></script>
+</body>
+</html>

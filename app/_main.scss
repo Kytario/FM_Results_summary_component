@@ -1,0 +1,45 @@
+p{
+  margin: 0;
+  font-family: Hanken Grotesk;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media only screen and (min-width: 600px) {
+  .center{
+    display: flex;
+    height: 96vh;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .middle{
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.164);
+    display: grid;
+    grid-template-columns: 340px 340px;
+    height: 450px;
+    width: 680px;
+    border-radius: 34px;
+  }
+}
+
+//!------------------------------
+//!------------------------------
+//!------------------------------
+//!------------------------------
+//!------------------------------
+//!------------------------------
+//!------------------------------
+
+@media only screen and (max-width: 600px) {
+  .middle{
+    display: grid;
+    grid-template-rows: 2;
+  }
+}

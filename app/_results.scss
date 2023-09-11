@@ -1,0 +1,130 @@
+@media only screen and (min-width: 600px) {
+  .result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 35px;
+    width: 340px;
+    height: 450px;
+    background: linear-gradient(0deg, $lightRoyalBlue, $lightSlateBlue);
+  }
+
+  .yourresult{
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: $lightLavender;
+    font-size: 20px;
+  }
+
+  .numbers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 175px;
+    width: 175px;
+    background: linear-gradient(180deg, $violetBlue, $persianBlue);
+    border-radius: 100px;
+  }
+
+  .big_numero{
+    color: $white;
+    font-weight: 800;
+    font-size: 60px;
+  }
+
+  .total{
+    margin-top: -6px;
+    color: $lightLavender;
+    opacity: 0.4;
+    font-size: 14px;
+  }
+
+  .great{
+    padding-top: 18px;
+    color: $white;
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .score{
+    padding-top: 18px;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: $lightLavender;
+    font-weight: 500;
+  }
+}
+
+
+// !----------------------------------------------------------------
+// !----------------------------------------------------------------
+// !----------------------------------------------------------------
+// !----------------------------------------------------------------
+// !----------------------------------------------------------------
+// !----------------------------------------------------------------
+// !----------------------------------------------------------------
+// !----------------------------------------------------------------
+
+
+@media only screen and (max-width: 600px) {
+  .result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    min-height: 365px;
+    border-radius: 0px 0px 35px 35px;
+    background: linear-gradient(0deg, $lightRoyalBlue, $lightSlateBlue);
+  }
+
+  .yourresult{
+    font-weight: 700;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: $lightLavender;
+    font-size: 20px;
+  }
+
+  .numbers{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 145px;
+    width: 145px;
+    background: linear-gradient(180deg, $violetBlue, $persianBlue);
+    border-radius: 100px;
+  }
+
+  .big_numero{
+    color: $white;
+    font-weight: 800;
+    font-size: 60px;
+  }
+
+  .total{
+    margin-top: -6px;
+    color: $lightLavender;
+    opacity: 0.4;
+    font-size: 14px;
+  }
+
+  .great{
+    padding-top: 18px;
+    color: $white;
+    font-size: 25px;
+    font-weight: 700;
+  }
+
+  .score{
+    padding-top: 18px;
+    text-align: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    color: $lightLavender;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,140 @@
+  
+  .summary{
+    padding: 30px;
+  }
+  .name{
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+
+  .summary div{
+    display: grid;
+    grid-template-columns: 50px 150px 80px;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 17px;
+  }
+  .reaction{
+    background-color: hsla(0, 100%, 67%, 0.1);
+  }
+  .memory{
+    background-color: hsla(39, 100%, 56%, 0.1);
+  }
+  .verbal{
+    background-color: hsla(166, 100%, 37%, 0.1);
+  }
+  .visual{
+    background-color: hsla(234, 85%, 45%, 0.1);
+  }
+
+  .r_text{
+    color: $lightRed;
+  }
+  .m_text{
+    color: $orangeyYellow;
+  }
+  .v_text{
+    color: $greenTeal;
+  }
+  .v1_text{
+    color: $cobaltBlue;
+  }
+
+  .r_img{
+    width: 24px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .r_score{
+    font-weight: 800;
+  }
+
+  .outof{
+    font-weight: 700;
+    color: $lightLavender;
+  }
+
+  .continue{
+    border: none;
+    border-radius: 30px;
+    color: $white;
+    font-family: Hanken Grotesk;
+    font-size: 16px;
+    background: $darkGrayBlue;
+    margin-top: 15px;
+    height: 49px;
+    width: 100%;
+  }
+
+  .continue:hover{
+    background: linear-gradient(0deg, $violetBlue, hsl(241, 72%, 46%));
+    cursor: pointer;
+  }
+
+// !----------------------------------------------------------------
+// !----------------------------------------------------------------
+// !----------------------------------------------------------------
+// !----------------------------------------------------------------
+// !----------------------------------------------------------------
+// !----------------------------------------------------------------
+// !----------------------------------------------------------------
+// !----------------------------------------------------------------
+
+
+
+@media only screen and (max-width: 600px) {
+  .summary{
+    padding: 30px;
+  }
+  .name{
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+
+  .summary div{
+    display: grid;
+    grid-template-columns: 15% 65% 20%;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 17px;
+  }
+
+  .r_img{
+    width: 24px;
+    margin-left: 12px;
+    margin-right: 12px;
+  }
+
+  .r_score{
+    font-weight: 800;
+  }
+
+  .outof{
+    font-weight: 700;
+    color: $lightLavender;
+  }
+
+  .continue{
+    border: none;
+    border-radius: 30px;
+    color: $white;
+    font-family: Hanken Grotesk;
+    font-size: 16px;
+    background: $darkGrayBlue;
+    margin-top: 15px;
+    height: 49px;
+    width: 100%;
+  }
+
+  .continue:hover{
+    background: linear-gradient(0deg, $violetBlue, hsl(241, 72%, 46%));
+    cursor: pointer;
+  }
+}
